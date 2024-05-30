@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('pepebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10%; /* Adjust the 10% value to lower the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none; /* Disable text selection */
+}
+
+h1 {
+    margin-top: 50px;
+    color: white;
+    user-select: none; /* Disable text selection */
+}
+
+.social-media-links {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none; /* Disable text selection */
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; /* Default color for links */
+    user-select: none; /* Disable text selection */
+    text-align: center;
+}
+
+.social-media-links a img {
+    display: block;
+    margin-top: 5px;
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+}
+
+.social-media-links a.twitter {
+    color: #000000; /* Custom color */
+}
+
+.social-media-links a.telegram {
+    color: #6acdff; /* Telegram Blue */
+}
+
+.social-media-links a.dexscreener {
+    color: #ff4500; /* Dex Screener Orange */
+}
+
+.social-media-links a:hover {
+    opacity: 0.8;
+}
